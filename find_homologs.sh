@@ -1,5 +1,5 @@
 #!/bin/sh
-blastn\
+tblastn\
 	-query $1\
 	-subject $2\
 	-task blastn-short\
